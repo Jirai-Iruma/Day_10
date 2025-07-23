@@ -50,3 +50,22 @@ int main() {
 	}
 	return 0;
 }
+//just to prove that key words don't work in c++ but do in python.
+ 
+int key_words(int the_first, int the_second) {
+	int result = the_first - the_second;
+	return result;
+}
+int main() {
+	int first;
+	int second;
+	int final;
+	std::cout << "What is the number given to x?" << "\n";
+	std::cin >> first;
+	std::cout << "What is the number given to y?" << "\n";
+	std::cin >> second;
+	final = key_words(first, second);
+	std::cout << "The resul is " << final;
+	return 0;
+}
+
